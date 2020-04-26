@@ -1,7 +1,7 @@
+import './styles.scss';
+
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-
-import './styles.scss';
 
 class Counter extends Component {
   render() {
@@ -12,6 +12,7 @@ class Counter extends Component {
           <button>Increment</button>
           <button>Decrement</button>
           <button>Reset</button>
+          // I said Hi!
         </section>
       </main>
     );
